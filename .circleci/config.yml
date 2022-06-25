@@ -5,8 +5,14 @@
 version: 2
 jobs:
   build:
+    context:
+      - build-env-vars
+      - docker-hub-creds
     docker:
       - image: circleci/node:16.15.1
+        auth:
+          username: $DOCKERHUB_USERNAME # can specify string literal values
+          password: $DOCKERHUB_PASSWORD # or project environment variable reference
 
     steps:
       - checkout
