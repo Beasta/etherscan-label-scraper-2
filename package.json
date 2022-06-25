@@ -37,20 +37,18 @@
   },
   "homepage": "https://github.com/beasta/etherscan-label-scraper-2#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "codacy-coverage": "^3.4.0",
-    "eslint": "^5.16.0",
-    "jest": "^24.8.0",
-    "prettier": "^1.17.1",
-    "rollup": "^1.12.3",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "eslint": "^8.18.0",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
+    "rollup": "^2.75.7",
     "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-node-resolve": "^5.0.0",
-    "vuepress": "^0.14.11"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "vuepress": "^1.9.7"
   },
-  "dependencies": {},
   "engines": {
-    "node": ">=8.0.0",
+    "node": ">=16.15.1",
     "npm": ">=5.2.0"
   }
 }
