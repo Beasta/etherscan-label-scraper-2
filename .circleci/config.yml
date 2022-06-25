@@ -9,7 +9,7 @@ jobs:
       - build-env-vars
       - docker-hub-creds
     docker:
-      - image: circleci/node:16.15.1
+      - image: cimg/node:16.15.1
         auth:
           username: $DOCKERHUB_USERNAME # can specify string literal values
           password: $DOCKERHUB_PASSWORD # or project environment variable reference
